@@ -4,16 +4,10 @@ This project extracts cost-analysis tables from Chinese annual-report PDFs and w
 
 The extractor does not assume that the table is always on page 43. It scans every page, combines keyword similarity with optional semantic embedding similarity, selects the top-scoring page, scans forward for split-table continuations, normalizes extracted rows, converts money units to million RMB, and writes per-report plus combined CSV outputs.
 
-## Default Paths
-
-```text
-Reports: /Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports
-Outputs: /Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/outputs
-```
 
 ## Install
 
-From `/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction`:
+From `annual_report/table_extraction`:
 
 ```bash
 python3 -m venv .venv
@@ -39,12 +33,6 @@ Run with the cached embedding model and no Hugging Face network checks:
 
 ```bash
 python -m annual_report_extractor.extractor --require-embeddings --offline-embeddings
-```
-
-Extract one PDF:
-
-```bash
-python -m annual_report_extractor.extractor --input /Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20260327_DDD5.pdf
 ```
 
 ## Useful Options
