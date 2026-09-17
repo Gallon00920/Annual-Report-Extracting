@@ -1,0 +1,6 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2015,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf,27,(3). 成本分析表,,原材料,40400.52,88.84,43215.0,89.75,-6.51,万元,0.844
+2015,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf,27,(3). 成本分析表,,人工,1485.87,3.27,1472.39,3.06,0.92,万元,0.844
+2015,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf,27,(3). 成本分析表,,折旧,543.0,1.19,355.85,0.74,52.59,万元,0.844
+2015,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf,27,(3). 成本分析表,,能源,396.94,0.87,369.08,0.77,7.55,万元,0.844
+2015,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf,27,(3). 成本分析表,,其他,2649.99,5.83,2739.84,5.69,-3.28,万元,0.844

@@ -1,0 +1,7 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,35,(4). 成本分析表,家用电器 行业,主营业务成本,164910.91,100.0,153723.81,100.0,7.28,万元,0.98
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,35,(4). 成本分析表,家用电器 行业,原材料,141107.64,85.6,131358.24,85.5,7.42,万元,0.98
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,35,(4). 成本分析表,家用电器 行业,人工,11223.34,6.8,9504.81,6.2,18.08,万元,0.98
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,36,(4). 成本分析表,家用电器 行业,折旧,2807.7,1.7,2540.04,1.7,10.54,万元,0.759
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,36,(4). 成本分析表,家用电器 行业,能源,659.82,0.4,816.21,0.5,-19.16,万元,0.759
+2023,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf,36,(4). 成本分析表,家用电器 行业,其他,9112.41,5.5,9504.5,6.2,-4.13,万元,0.759

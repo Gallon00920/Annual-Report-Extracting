@@ -1,0 +1,6 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2018,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf,27,(3). 成本分析表,家用电器 行业,原材料,88172.49,83.94,76258.96,85.97,-2.03,万元,0.98
+2018,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf,27,(3). 成本分析表,家用电器 行业,人工,5880.73,5.6,6143.18,6.93,-1.33,万元,0.98
+2018,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf,27,(3). 成本分析表,家用电器 行业,折旧,1748.04,1.66,1637.59,1.85,-0.19,万元,0.98
+2018,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf,27,(3). 成本分析表,家用电器 行业,能源,607.8,0.58,394.37,0.44,0.14,万元,0.98
+2018,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf,27,(3). 成本分析表,家用电器 行业,其他,8628.07,8.21,4266.95,4.81,3.4,万元,0.98

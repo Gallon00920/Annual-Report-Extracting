@@ -1,0 +1,6 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2014,2014 年年度报告,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf,21,(1) 成本分析表,,原材料,40339.19,90.42,39715.16,90.86,1.57,万元,0.98
+2014,2014 年年度报告,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf,21,(1) 成本分析表,,人工,1794.4,4.02,1694.34,3.88,5.91,万元,0.98
+2014,2014 年年度报告,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf,21,(1) 成本分析表,,折旧,375.12,0.84,343.92,0.79,9.07,万元,0.98
+2014,2014 年年度报告,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf,21,(1) 成本分析表,,能源,394.78,0.88,355.3,0.81,11.11,万元,0.98
+2014,2014 年年度报告,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf,21,(1) 成本分析表,,其他,1709.34,3.83,1602.94,3.67,6.64,万元,0.98

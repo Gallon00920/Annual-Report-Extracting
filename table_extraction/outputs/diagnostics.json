@@ -1,0 +1,1319 @@
+[
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf",
+    "candidate_pages": [
+      {
+        "page_number": 42,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.377488,
+        "semantic_score_norm": 0.688744,
+        "combined_score": 0.844372,
+        "text": "青岛海尔股份有限公司 2007 年年度报告\n母公司利润表\n2007 年 1-12 月\n单位: 元 币种:人民币\n编制单位: 青岛海尔股份有限公司\n项目 附注 本期金额 上期金额\n一、营业收入 八、4 2,216,730,527.93 1,770,330,656.93\n减：营业成本 八、4 1,801,539,090.62 1,480,833,588.76\n营业税金及附加 7,509,350.33 6,713,123.33\n销售费用 148,403,369.87 109,254,446.77\n管理费用 112,279,013.45 116,693,867.62\n财务费用 614,540.34 -4,401,625.18\n资产减值损失 6,101,326.83 -6,885,099.70\n加：公允价值变动收益（损失以“－”号填列）\n投资收益（损失以“－”号填列） 965,132,290.02 300,943,798.83\n其中：对联营企业和合营企业的投资收益\n二、营业利润（亏损以“－”号填列） 1,105,416,126.51 369,066,154.16\n加：营业外收入 6,211,10"
+      },
+      {
+        "page_number": 41,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.368567,
+        "semantic_score_norm": 0.684284,
+        "combined_score": 0.842142,
+        "text": "青岛海尔股份有限公司 2007 年年度报告\n合并利润表\n2007 年 1-12 月\n编制单位: 青岛海尔股份有限公司\n单位: 元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业总收入\n其中：营业收入 七、30 29,468,645,507.98 23,214,304,406.67\n利息收入\n已赚保费\n手续费及佣金收入\n二、营业总成本\n其中：营业成本 七、30 23,867,836,251.20 19,481,590,164.55\n利息支出\n手续费及佣金支出\n退保金\n赔付支出净额\n提取保险合同准备金净额\n保单红利支出\n分保费用\n营业税金及附加 七、31 65,855,870.72 43,030,562.44\n销售费用 3,502,458,838.78 1,997,315,727.94\n管理费用 1,187,483,078.84 910,135,094.55\n财务费用 七、32 47,970,512.41 3,110,116.29\n资产减值损失 七、33 -37,384,418.30 -1,052,548.29\n加：公允价值变动收益（损失以“－”号填列）\n投资收益（损失以“－”号填"
+      },
+      {
+        "page_number": 44,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.333831,
+        "semantic_score_norm": 0.666915,
+        "combined_score": 0.833458,
+        "text": "青岛海尔股份有限公司 2007 年年度报告\n母公司现金流量表\n2007 年 1-12 月\n单位:元 币种:人民币\n编制单位: 青岛海尔股份有限公司\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 963,989,557.40 1,380,162,827.07\n收到的税费返还\n收到其他与经营活动有关的现金 8,513,846.32 626,446.32\n经营活动现金流入小计 972,503,403.72 1,380,789,273.39\n购买商品、接受劳务支付的现金 225,516,522.26 250,512,669.01\n支付给职工以及为职工支付的现金 58,409,583.63 33,330,616.76\n支付的各项税费 96,926,693.73 86,879,679.81\n支付其他与经营活动有关的现金 131,084,219.35 182,156,713.43\n经营活动现金流出小计 511,937,018.97 552,879,679.01\n经营活动产生的现金流量净额 460,566,384.75 827,909,594.38\n二、投"
+      },
+      {
+        "page_number": 48,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.287036,
+        "semantic_score_norm": 0.643518,
+        "combined_score": 0.821759,
+        "text": "青岛海尔股份有限公司 2007 年年度报告\n3．盈余公积弥补亏损 0\n4．其他\n四、本期期末余额 1,196,472,423.00 3,144,716,816.22 1,075,308,990.80 426,469,671.31 808,449,466.03 6,651,417,367.36\n公司法定代表人:杨绵绵 主管会计工作负责人:梁海山 会计机构负责人:洪晓明\n母公司所有者权益变动表\n2007 年 1-12 月\n编制单位: 青岛海尔股份有限公司\n单位:元 币种:人民币\n本期金额\n项目\n实收资本(或股本) 资本公积 减：库存股 盈余公积 未分配利润 所有者权益合计\n一、上年年末余额 1,196,472,423.00 2,934,209,785.97 776,045,146.32 878,866,136.39 5,785,593,491.68\n加：会计政策变更 -6,485,972.68 -458,613,551.96 -1,386,505,558.26 -1,851,605,082.90\n前期差错更正\n二、本年年初余额 1,196,472,423.00 2,927,723,813."
+      },
+      {
+        "page_number": 45,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.224216,
+        "semantic_score_norm": 0.612108,
+        "combined_score": 0.806054,
+        "text": "合并所有者权益变动表\n2007 年 1-12 月\n编制单位: 青岛海尔股份有限公司\n单位:元 币种:人民币\n本期金额\n项目 归属于母公司所有者权益\n少数股东权益 所有者权益合计\n实收资本(或股本) 资本公积 减：库存股 盈余公积 一般风险准备 未分配利润 其他\n一、上年年末余\n1,196,472,423.00 2,934,195,223.74 1,417,045,585.46 238,229,409.89 544,069,509.73 6,330,012,151.82\n额\n加：会计政策变\n-462,226,605.60 -117,681,397.95 2,054,766.32 -577,853,237.23\n更\n前期差错更正 0\n同一控制下企业\n210,521,592.48 120,490,010.94 305,921,659.35 262,325,189.98 899,258,452.75\n合并\n二、本年年初余\n1,196,472,423.00 3,144,716,816.22 1,075,308,990.80 426,469,671.31 808,449,466.03 6,651,"
+      }
+    ],
+    "warnings": [
+      "Candidate pages found, but no matching cost-analysis table could be parsed."
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 0,
+      "written_rows": 0,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2008_n.pdf",
+    "candidate_pages": [
+      {
+        "page_number": 44,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.37538,
+        "semantic_score_norm": 0.68769,
+        "combined_score": 0.843845,
+        "text": "青岛海尔股份有限公司 2008 年年度报告\n合并利润表\n2008 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业总收入 30,408,039,342.38 29,468,645,507.98\n其中：营业收入 七、31 30,408,039,342.38 29,468,645,507.98\n利息收入 0.00 0.00\n已赚保费 0.00 0.00\n手续费及佣金收入 0.00 0.00\n二、营业总成本 29,392,367,129.56 28,634,220,133.65\n其中：营业成本 七、31 23,375,986,068.53 23,867,836,251.20\n利息支出 0.00 0.00\n手续费及佣金支出 0.00 0.00\n退保金 0.00 0.00\n赔付支出净额 0.00 0.00\n提取保险合同准备金净额 0.00 0.00\n保单红利支出 0.00 0.00\n分保费用 0.00 0.00\n营业税金及附加 七、32 95,454,059.03 65,855,870.72\n销售费用 4,074,594,216.59 3,502,458,838"
+      },
+      {
+        "page_number": 45,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.360023,
+        "semantic_score_norm": 0.680012,
+        "combined_score": 0.840006,
+        "text": "青岛海尔股份有限公司 2008 年年度报告\n母公司利润表\n2008 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业收入 八、4 2,421,002,797.69 2,216,730,527.93\n减：营业成本 八、4 1,830,007,232.82 1,801,539,090.62\n营业税金及附加 11,613,896.28 7,509,350.33\n销售费用 235,662,782.64 148,403,369.87\n管理费用 127,020,130.71 112,279,013.45\n财务费用 -18,871,987.19 614,540.34\n资产减值损失 5,689,737.78 6,101,326.83\n加：公允价值变动收益（损失以\n0.00 0.00\n“－”号填列）\n投资收益（损失以“－”号填\n八、5 78,044,753.65 965,132,290.02\n列）\n其中：对联营企业和合营\n0.00 0.00\n企业的投资收益\n二、营业利润（亏损以“－”号填列） 307,925,758.30 1,105,416,126.51\n加：营业外收入"
+      },
+      {
+        "page_number": 47,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.345295,
+        "semantic_score_norm": 0.672647,
+        "combined_score": 0.836324,
+        "text": "青岛海尔股份有限公司 2008 年年度报告\n母公司现金流量表\n2008 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 1,164,543,583.68 963,989,557.40\n收到的税费返还 0.00 0.00\n收到其他与经营活动有关的现金 34,504,287.88 8,513,846.32\n经营活动现金流入小计 1,199,047,871.56 972,503,403.72\n购买商品、接受劳务支付的现金 359,090,879.79 225,516,522.26\n支付给职工以及为职工支付的现金 134,766,947.21 58,409,583.63\n支付的各项税费 178,655,834.49 96,926,693.73\n支付其他与经营活动有关的现金 286,684,797.98 131,084,219.35\n经营活动现金流出小计 959,198,459.47 511,937,018.97\n经营活动产生的现金流量净额 239,849,412.09 460,566,384.75\n二、投资活"
+      },
+      {
+        "page_number": 92,
+        "keyword_score": 2.0,
+        "keyword_score_norm": 0.666667,
+        "semantic_score": 0.415719,
+        "semantic_score_norm": 0.70786,
+        "combined_score": 0.687263,
+        "text": "青岛海尔股份有限公司 2008 年年度报告\n37、营业外支出\n上期发生额\n项目 本期发生额\n非流动资产处置损失 7,568,766.72 3,524,674.94\n流动资产处置损失 12,471,500.86\n公益性捐赠支出 54,344,832.15 43,734,705.01\n其他 2,035,297.66 6,676,941.63\n合计\n63,948,896.53 66,407,822.44\n38、所得税费用\n项目 本期发生额 上期发生额\n当期所得税费用 259,606,742.68 188,495,983.07\n递延所得税费用 -101,178,576.09 -62,667,101.93\n合计 158,428,166.59 125,828,881.14\n39、基本每股收益和稀释每股收益\n基本每股收益=P÷S\nS=S0+S1+Si×Mi÷M0-Sj×Mj÷M0-Sk\n其中：P为归属于公司普通股股东的净利润；\nS为发行在外的普通股加权平均数；\nS0为期初股份总数；\nS1为报告期因公积金转增股本或股票股利分配等增加股份数；\nSi为报告期因发行新股或债转股等增加股份数；\nSj为报告期因"
+      },
+      {
+        "page_number": 93,
+        "keyword_score": 2.0,
+        "keyword_score_norm": 0.666667,
+        "semantic_score": 0.302984,
+        "semantic_score_norm": 0.651492,
+        "combined_score": 0.659079,
+        "text": "青岛海尔股份有限公司 2008 年年度报告\n项目 本期金额 上期金额\n768,178,067.10 643,632,017.77\n归属母公司的普通股股东的净利润\n减：非经常性损益 -22,202,892.10 -4,094,342.22\n扣除非经常性损益后归属于公司普通股股\n790,380,959.20 647,726,359.99\n东的净利润\n非经常性损益项目\n非经常性损益项目 本期发生额 上期发生额\n非流动资产处置损益 -4,357,776.71 2,994,485.56\n计入当期损益的政府补助 11,515,397.52 13,792,797.09\n除上述各项之外的其他营业外收支净额 -36,761,476.94 -35,966,122.20\n同一控制下企业合并产生的子公司年初至\n12,207,671.40\n合并日的当期净利润\n以上因素的所得税影响 7,400,964.03 2,876,825.93\n合计 -22,202,892.10 -4,094,342.22\n40、收到其他与经营活动有关的现金\n本期收到其他与经营活动有关的现金的主要项目：\n项目 金额\n往来款 73,158,6"
+      }
+    ],
+    "warnings": [
+      "Candidate pages found, but no matching cost-analysis table could be parsed."
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 0,
+      "written_rows": 0,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2009_n.pdf",
+    "candidate_pages": [
+      {
+        "page_number": 107,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.461391,
+        "semantic_score_norm": 0.730696,
+        "combined_score": 0.865348,
+        "text": "青岛海尔股份有限公司 2009 年年度报告\n（2）按销售地区列示营业收入和营业成本\n本期发生额 上期发生额\n类别\n营业收入 营业成本 营业收入 营业成本\n国内地区 2,832,266,501.88 2,082,347,246.35 2,295,967,032.87 1,703,468,186.30\n国外地区 177,580,823.96 179,496,689.11 125,035,764.82 126,539,046.52\n合计 3,009,847,325.84 2,261,843,935.46 2,421,002,797.69 1,830,007,232.82\n（3）按产品类别列示主营业务收入和主营业务成本\n本期发生额 上期发生额\n类别\n主营业务收入 主营业务成本 主营业务收入 主营业务成本\n电冰箱 2,967,892,574.55 2,239,086,042.13 2,390,408,258.03 1,799,412,693.16\n5、投资收益\n项目 本期发生额 上期发生额\n成本法核算的长期股权投资收益 493,863,203.18 75,372,234.21\n权益法核算的长期股"
+      },
+      {
+        "page_number": 46,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.857143,
+        "semantic_score": 0.387844,
+        "semantic_score_norm": 0.693922,
+        "combined_score": 0.775532,
+        "text": "青岛海尔股份有限公司 2009 年年度报告\n合并利润表\n2009 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业总收入 七、31 32,979,419,367.01 30,408,039,342.38\n其中：营业收入 七、31 32,979,419,367.01 30,408,039,342.38\n利息收入\n已赚保费\n手续费及佣金收入\n二、营业总成本 31,515,989,782.90 29,392,367,129.56\n其中：营业成本 七、31 24,263,147,272.18 23,375,986,068.53\n利息支出\n手续费及佣金支出\n退保金\n赔付支出净额\n提取保险合同准备金净额\n保单红利支出\n分保费用\n营业税金及附加 七、32 134,738,200.38 95,454,059.03\n销售费用 4,984,187,508.44 4,074,594,216.59\n管理费用 2,116,221,142.76 1,691,186,469.23\n财务费用 七、33 -7,965,819.41 103,655,265.15\n资产减值损失 七、34 "
+      },
+      {
+        "page_number": 48,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.857143,
+        "semantic_score": 0.362158,
+        "semantic_score_norm": 0.681079,
+        "combined_score": 0.769111,
+        "text": "青岛海尔股份有限公司 2009 年年度报告\n母公司利润表\n2009 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业收入 十四、4 3,009,847,325.84 2,421,002,797.69\n减：营业成本 十四、4 2,261,843,935.46 1,830,007,232.82\n营业税金及附加 14,525,525.49 11,613,896.28\n销售费用 254,285,731.56 235,662,782.64\n管理费用 226,029,058.24 127,020,130.71\n财务费用 -6,337,353.66 -18,871,987.19\n资产减值损失 6,552,912.48 5,689,737.78\n加：公允价值变动收益（损失以“－”\n号填列）\n投资收益（损失以“－”号填列） 十四、5 494,355,957.56 78,044,753.65\n其中：对联营企业和合营企业的\n投资收益\n二、营业利润（亏损以“－”号填列） 747,303,473.83 307,925,758.30\n加：营业外收入 1,514,544.50 1,"
+      },
+      {
+        "page_number": 51,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.857143,
+        "semantic_score": 0.350995,
+        "semantic_score_norm": 0.675498,
+        "combined_score": 0.76632,
+        "text": "青岛海尔股份有限公司 2009 年年度报告\n母公司现金流量表\n2009 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 1,886,533,593.32 1,164,543,583.68\n收到的税费返还\n收到其他与经营活动有关的现金 15,513,457.45 34,504,287.88\n经营活动现金流入小计 1,902,047,050.77 1,199,047,871.56\n购买商品、接受劳务支付的现金 701,813,036.41 359,090,879.79\n支付给职工以及为职工支付的现金 126,818,977.91 134,766,947.21\n支付的各项税费 149,943,265.92 178,655,834.49\n支付其他与经营活动有关的现金 139,527,706.71 286,684,797.98\n经营活动现金流出小计 1,118,102,986.95 959,198,459.47\n经营活动产生的现金流量净额 783,944,063.82 239,849,412.09\n二、投资活动"
+      },
+      {
+        "page_number": 54,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.857143,
+        "semantic_score": 0.340182,
+        "semantic_score_norm": 0.670091,
+        "combined_score": 0.763617,
+        "text": "青岛海尔股份有限公司 2009 年年度报告\n3．盈余公积弥补亏损\n4．其他\n（六）专项储备\n1．本期提取\n2．本期使用\n四、本期期末余额 1,338,518,770.00 3,030,528,900.82 1,231,756,067.77 2,119,929,744.91 1,031,505,559.44 8,752,239,042.94\n单位:元 币种:人民币\n上年同期金额\n归属于母公司所有者权益\n项目\n实收资本（或股 减：库 专项储 一般风 少数股东权益 所有者权益合计\n资本公积 盈余公积 未分配利润 其他\n本） 存股 备 险准备\n一、上年年末余额 1,338,518,770.00 3,016,378,138.68 1,133,289,551.11 820,926,584.14 747,016,074.15 7,056,129,118.08\n加：会计政策变更\n前期差错更正\n其他\n二、本年年初余额 1,338,518,770.00 3,016,378,138.68 1,133,289,551.11 820,926,584.14 747,016,074.15 7,056,129,118"
+      }
+    ],
+    "warnings": [
+      "Candidate pages found, but no matching cost-analysis table could be parsed."
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 0,
+      "written_rows": 0,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2010_n.pdf",
+    "candidate_pages": [
+      {
+        "page_number": 64,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.38572,
+        "semantic_score_norm": 0.69286,
+        "combined_score": 0.84643,
+        "text": "青岛海尔股份有限公司 2010 年年度报告\n合并利润表\n2010 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业总收入 60,588,248,129.75 44,692,003,512.29\n其中：营业收入 七、34 60,588,248,129.75 44,692,003,512.29\n利息收入\n已赚保费\n手续费及佣金收入\n二、营业总成本 57,865,369,583.78 42,605,294,583.99\n其中：营业成本 七、34 46,420,009,145.90 32,298,115,111.71\n利息支出\n手续费及佣金支出\n退保金\n赔付支出净额\n提取保险合同准备\n金净额\n保单红利支出\n分保费用\n营业税金及附加 七、35 160,226,116.51 152,248,400.38\n销售费用 7,815,461,209.67 7,141,575,436.74\n管理费用 3,416,664,435.09 2,964,225,219.05\n财务费用 七、36 6,658,266.14 16,163,428.59\n资产减值损失 七、37 46,35"
+      },
+      {
+        "page_number": 66,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.37358,
+        "semantic_score_norm": 0.68679,
+        "combined_score": 0.843395,
+        "text": "青岛海尔股份有限公司 2010 年年度报告\n母公司利润表\n2010 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业收入 十四、4 3,530,177,959.39 3,009,847,325.84\n减：营业成本 十四、4 2,751,872,407.78 2,261,843,935.46\n营业税金及附加 12,280,223.89 14,525,525.49\n销售费用 193,213,237.42 254,285,731.56\n管理费用 269,378,641.39 226,029,058.24\n财务费用 -4,970,162.40 -6,337,353.66\n资产减值损失 -14,506,293.30 6,552,912.48\n加：公允价值变动收益（损\n失以“－”号填列）\n投 资 收 益 （ 损 失 以\n十四、5 674,679,765.38 494,355,957.56\n“－”号填列）\n其中：对联营企业\n905,185.12 492,754.38\n和合营企业的投资收益\n二、营业利润（亏损以“－”\n997,589,669.99 747,303,47"
+      },
+      {
+        "page_number": 70,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.364134,
+        "semantic_score_norm": 0.682067,
+        "combined_score": 0.841033,
+        "text": "青岛海尔股份有限公司 2010 年年度报告\n母公司现金流量表\n2010 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到\n2,851,880,033.94 1,886,533,593.32\n的现金\n收到的税费返还 3,530,924.39\n收到其他与经营活动有关\n20,015,165.70 15,513,457.45\n的现金\n经营活动现金流入小计 2,875,426,124.03 1,902,047,050.77\n购买商品、接受劳务支付\n1,122,037,338.84 701,813,036.41\n的现金\n支付给职工以及为职工支\n162,572,421.47 126,818,977.91\n付的现金\n支付的各项税费 188,629,774.62 149,943,265.92\n支付其他与经营活动有关\n226,110,559.36 139,527,706.71\n的现金\n经营活动现金流出小计 1,699,350,094.29 1,118,102,986.95\n经营活动产生的现金\n1,176,076,029.74 7"
+      },
+      {
+        "page_number": 67,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.332491,
+        "semantic_score_norm": 0.666245,
+        "combined_score": 0.833123,
+        "text": "青岛海尔股份有限公司 2010 年年度报告\n合并现金流量表\n2010 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到\n56,590,410,548.34 40,561,535,955.94\n的现金\n客户存款和同业存放款项\n净增加额\n向中央银行借款净增加额\n向其他金融机构拆入资金\n净增加额\n收到原保险合同保费取得\n的现金\n收到再保险业务现金净额\n保户储金及投资款净增加\n额\n处置交易性金融资产净增\n加额\n收取利息、手续费及佣金\n的现金\n拆入资金净增加额\n回购业务资金净增加额\n收到的税费返还 275,619,669.81 129,203,783.73\n收到其他与经营活动有关\n七、43 825,201,104.75 258,640,668.97\n的现金\n经营活动现金流入小计 57,691,231,322.90 40,949,380,408.64\n购买商品、接受劳务支付\n39,223,188,707.54 24,988,417,302.52\n的现金\n客户贷款及垫款净增加额\n存放中央银行和同业款项\n净增加额\n支付原保险"
+      },
+      {
+        "page_number": 77,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.284969,
+        "semantic_score_norm": 0.642484,
+        "combined_score": 0.821242,
+        "text": "青岛海尔股份有限公司 2010 年年度报告\n（五）所有者权益内部结转\n1．资本公积转增资本（或股本）\n2．盈余公积转增资本（或股本）\n3．盈余公积弥补亏损\n4．其他\n（六）专项储备\n1．本期提取\n2．本期使用\n（七）其他\n1,198,750,172.0\n四、本期期末余额 1,339,961,770.00 3,491,652,271.80 567,238,075.47 6,597,602,289.35\n8\n单位:元 币种:人民币\n上年同期金额\n项目 专项储 一般风险准\n实收资本（或股本） 资本公积 减：库存股 盈余公积 未分配利润 所有者权益合计\n备 备\n一、上年年末余额 1,338,518,770.00 3,406,662,233.32 402,889,782.34 321,948,980.41 5,470,019,766.07\n加：会计政策变更\n前期差错更正\n其他\n二、本年年初余额 1,338,518,770.00 3,406,662,233.32 402,889,782.34 321,948,980.41 5,470,019,766.07\n三、本期增减变动金额（减少以“－”\n20,"
+      }
+    ],
+    "warnings": [
+      "Candidate pages found, but no matching cost-analysis table could be parsed."
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 0,
+      "written_rows": 0,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2011_n.pdf",
+    "candidate_pages": [
+      {
+        "page_number": 80,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.336513,
+        "semantic_score_norm": 0.668257,
+        "combined_score": 0.834128,
+        "text": "青岛海尔股份有限公司 2011 年年度报告\n2．盈余公积转增资本（或股本）\n3．盈余公积弥补亏损\n4．其他\n（六）专项储备\n1．本期提取\n2．本期使用\n（七）其他\n四、本期期末余额 2,685,127,540.00 2,257,504,178.11 773,072,303.18 2,202,181,664.76 7,917,885,686.05\n单位:元 币种:人民币\n上年同期金额\n项目 实收资本（或 减：库 专项 一般风 所有者权益合\n资本公积 盈余公积 未分配利润\n股本） 存股 储备 险准备 计\n一、上年年末余额 1,338,518,770.00 3,427,615,393.87 473,878,671.33 760,071,165.78 6,000,084,000.98\n加：会计政策变更\n前期差错更正\n其他\n二、本年年初余额 1,338,518,770.00 3,427,615,393.87 473,878,671.33 760,071,165.78 6,000,084,000.98\n三、本期增减变动金额（减少以“－”\n1,443,000.00 64,036,877.93 93,"
+      },
+      {
+        "page_number": 70,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.32249,
+        "semantic_score_norm": 0.661245,
+        "combined_score": 0.830623,
+        "text": "青岛海尔股份有限公司 2011 年年度报告\n法定代表人：杨绵绵 主管会计工作负责人：梁海山 会计机构负责人：宫 伟\n合并利润表\n2011 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、营业总收入 七、37 73,662,501,627.24 64,694,775,664.95\n其中：营业收入 七、37 73,662,501,627.24 64,694,775,664.95\n利息收入\n已赚保费\n手续费及佣金收入\n二、营业总成本 70,020,458,413.85 61,764,834,343.97\n其中：营业成本 七、37 56,263,081,343.94 50,112,176,255.49\n利息支出\n手续费及佣金支出\n退保金\n赔付支出净额\n提取保险合同准备金净额\n保单红利支出\n分保费用\n营业税金及附加 七、38 331,881,010.10 166,383,761.93\n销售费用 9,099,342,578.93 7,895,006,813.23\n管理费用 4,053,202,612.90 3,510,106,556.85\n财务费用 七、39 115,"
+      },
+      {
+        "page_number": 72,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.295919,
+        "semantic_score_norm": 0.647959,
+        "combined_score": 0.82398,
+        "text": "青岛海尔股份有限公司 2011 年年度报告\n法定代表人：杨绵绵 主管会计工作负责人：梁海山 会计机构负责人：宫 伟\n合并现金流量表\n2011 年 1—12 月\n单位:元 币种:人民币\n项目 附注 本期金额 上期金额\n一、经营活动产生的现金流量：\n销售商品、提供劳务收到的现金 59,555,333,928.80 58,627,610,002.32\n客户存款和同业存放款项净增加额\n向中央银行借款净增加额\n向其他金融机构拆入资金净增加额\n收到原保险合同保费取得的现金\n收到再保险业务现金净额\n保户储金及投资款净增加额\n处置交易性金融资产净增加额\n收取利息、手续费及佣金的现金\n拆入资金净增加额\n回购业务资金净增加额\n收到的税费返还 299,913,410.80 275,804,911.65\n收到其他与经营活动有关的现金 七、46 596,914,450.98 842,037,089.30\n经营活动现金流入小计 60,452,161,790.58 59,745,452,003.27\n购买商品、接受劳务支付的现金 38,448,308,626.36 40,829,439,935.17\n客户贷款及垫款"
+      },
+      {
+        "page_number": 77,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.231933,
+        "semantic_score_norm": 0.615966,
+        "combined_score": 0.807983,
+        "text": "青岛海尔股份有限公司 2011 年年度报告\n单位:元 币种:人民币\n上年同期金额\n归属于母公司所有者权益\n减：\n项目 一般 少数股东权 所有者权益\n实收资本 库 专项储\n资本公积 盈余公积 风险 未分配利润 其他 益 合计\n（或股本） 存 备\n准备\n股\n一、上年年末余额 1,338,518,770.00 3,260,249,611.34 1,368,218,578.73 2,721,018,374.75 6,190,848.43 1,969,260,783.00 10,663,456,966.25\n加：会计政策变更 -\n前期差错更正 -\n其他 -\n二、本年年初余额 1,338,518,770.00 3,260,249,611.34 1,368,218,578.73 2,721,018,374.75 6,190,848.43 1,969,260,783.00 10,663,456,966.25\n三、本期增减变动金额（减少\n1,443,000.00 -813,649,664.55 93,359,404.14 -104,543,163.25 2,274,782.35 540,540,805."
+      },
+      {
+        "page_number": 73,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.224533,
+        "semantic_score_norm": 0.612267,
+        "combined_score": 0.806133,
+        "text": "青岛海尔股份有限公司 2011 年年度报告\n购建固定资产、无形资产和其他长\n1,584,316,438.51 1,306,884,209.63\n期资产支付的现金\n投资支付的现金 2,986,335,687.06 1,998,258,805.19\n质押贷款净增加额\n取得子公司及其他营业单位支付的\n现金净额\n支付其他与投资活动有关的现金\n投资活动现金流出小计 4,570,652,125.57 3,305,143,014.82\n投资活动产生的现金流量净额 -4,512,028,150.97 -3,031,865,594.91\n三、筹资活动产生的现金流量：\n吸收投资收到的现金 177,122,230.69 204,595,242.69\n其中：子公司吸收少数股东投资收\n到的现金\n取得借款收到的现金 2,054,332,743.22 2,205,902,056.00\n发行债券收到的现金\n收到其他与筹资活动有关的现金\n筹资活动现金流入小计 2,231,454,973.91 2,410,497,298.69\n偿还债务支付的现金 955,036,088.00 2,060,698,559.00\n分配股利、"
+      }
+    ],
+    "warnings": [
+      "Candidate pages found, but no matching cost-analysis table could be parsed."
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 0,
+      "written_rows": 0,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf",
+    "selected_page": 14,
+    "extracted_pages": [
+      14,
+      16
+    ],
+    "top_page_score": {
+      "keyword_score": 16.0,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.408778,
+      "semantic_score_norm": 0.704389,
+      "combined_score": 0.852194
+    },
+    "candidate_pages": [
+      {
+        "page_number": 14,
+        "keyword_score": 16.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.408778,
+        "semantic_score_norm": 0.704389,
+        "combined_score": 0.852194
+      },
+      {
+        "page_number": 56,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.1875,
+        "semantic_score": 0.415776,
+        "semantic_score_norm": 0.707888,
+        "combined_score": 0.447694
+      },
+      {
+        "page_number": 57,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.1875,
+        "semantic_score": 0.397274,
+        "semantic_score_norm": 0.698637,
+        "combined_score": 0.443069
+      },
+      {
+        "page_number": 101,
+        "keyword_score": 1.5,
+        "keyword_score_norm": 0.09375,
+        "semantic_score": 0.455944,
+        "semantic_score_norm": 0.727972,
+        "combined_score": 0.410861
+      },
+      {
+        "page_number": 61,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.1875,
+        "semantic_score": 0.225232,
+        "semantic_score_norm": 0.612616,
+        "combined_score": 0.400058
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2013_n.pdf",
+    "selected_page": 16,
+    "extracted_pages": [
+      16,
+      17
+    ],
+    "top_page_score": {
+      "keyword_score": 16.5,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.452467,
+      "semantic_score_norm": 0.726233,
+      "combined_score": 0.863117
+    },
+    "candidate_pages": [
+      {
+        "page_number": 16,
+        "keyword_score": 16.5,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.452467,
+        "semantic_score_norm": 0.726233,
+        "combined_score": 0.863117
+      },
+      {
+        "page_number": 136,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.212121,
+        "semantic_score": 0.387956,
+        "semantic_score_norm": 0.693978,
+        "combined_score": 0.45305
+      },
+      {
+        "page_number": 70,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.181818,
+        "semantic_score": 0.284167,
+        "semantic_score_norm": 0.642083,
+        "combined_score": 0.411951
+      },
+      {
+        "page_number": 119,
+        "keyword_score": 1.5,
+        "keyword_score_norm": 0.090909,
+        "semantic_score": 0.462423,
+        "semantic_score_norm": 0.731212,
+        "combined_score": 0.41106
+      },
+      {
+        "page_number": 71,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.181818,
+        "semantic_score": 0.2749,
+        "semantic_score_norm": 0.63745,
+        "combined_score": 0.409634
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2014_n.pdf",
+    "selected_page": 21,
+    "extracted_pages": [
+      21,
+      23
+    ],
+    "top_page_score": {
+      "keyword_score": 16.5,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.465207,
+      "semantic_score_norm": 0.732603,
+      "combined_score": 0.866302
+    },
+    "candidate_pages": [
+      {
+        "page_number": 21,
+        "keyword_score": 16.5,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.465207,
+        "semantic_score_norm": 0.732603,
+        "combined_score": 0.866302
+      },
+      {
+        "page_number": 133,
+        "keyword_score": 1.5,
+        "keyword_score_norm": 0.090909,
+        "semantic_score": 0.331306,
+        "semantic_score_norm": 0.665653,
+        "combined_score": 0.378281
+      },
+      {
+        "page_number": 105,
+        "keyword_score": 0.0,
+        "keyword_score_norm": 0.0,
+        "semantic_score": 0.510603,
+        "semantic_score_norm": 0.755302,
+        "combined_score": 0.377651
+      },
+      {
+        "page_number": 28,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.060606,
+        "semantic_score": 0.381682,
+        "semantic_score_norm": 0.690841,
+        "combined_score": 0.375724
+      },
+      {
+        "page_number": 157,
+        "keyword_score": 1.5,
+        "keyword_score_norm": 0.090909,
+        "semantic_score": 0.303303,
+        "semantic_score_norm": 0.651652,
+        "combined_score": 0.37128
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2015_n.pdf",
+    "selected_page": 26,
+    "extracted_pages": [
+      27,
+      28
+    ],
+    "top_page_score": {
+      "keyword_score": 16.8,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.364733,
+      "semantic_score_norm": 0.682366,
+      "combined_score": 0.841183
+    },
+    "candidate_pages": [
+      {
+        "page_number": 26,
+        "keyword_score": 16.8,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.364733,
+        "semantic_score_norm": 0.682366,
+        "combined_score": 0.841183
+      },
+      {
+        "page_number": 158,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.382184,
+        "semantic_score_norm": 0.691092,
+        "combined_score": 0.434832
+      },
+      {
+        "page_number": 186,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.202297,
+        "semantic_score_norm": 0.601149,
+        "combined_score": 0.38986
+      },
+      {
+        "page_number": 27,
+        "keyword_score": 0.0,
+        "keyword_score_norm": 0.0,
+        "semantic_score": 0.555288,
+        "semantic_score_norm": 0.777644,
+        "combined_score": 0.388822
+      },
+      {
+        "page_number": 157,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.059524,
+        "semantic_score": 0.429519,
+        "semantic_score_norm": 0.71476,
+        "combined_score": 0.387142
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf",
+    "selected_page": 27,
+    "extracted_pages": [
+      28,
+      29
+    ],
+    "top_page_score": {
+      "keyword_score": 16.8,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.276623,
+      "semantic_score_norm": 0.638312,
+      "combined_score": 0.819156
+    },
+    "candidate_pages": [
+      {
+        "page_number": 27,
+        "keyword_score": 16.8,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.276623,
+        "semantic_score_norm": 0.638312,
+        "combined_score": 0.819156
+      },
+      {
+        "page_number": 153,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.059524,
+        "semantic_score": 0.489276,
+        "semantic_score_norm": 0.744638,
+        "combined_score": 0.402081
+      },
+      {
+        "page_number": 185,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.236433,
+        "semantic_score_norm": 0.618216,
+        "combined_score": 0.398394
+      },
+      {
+        "page_number": 156,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.233643,
+        "semantic_score_norm": 0.616821,
+        "combined_score": 0.397696
+      },
+      {
+        "page_number": 116,
+        "keyword_score": 0.0,
+        "keyword_score_norm": 0.0,
+        "semantic_score": 0.544548,
+        "semantic_score_norm": 0.772274,
+        "combined_score": 0.386137
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf",
+    "selected_page": 24,
+    "extracted_pages": [
+      24,
+      25
+    ],
+    "top_page_score": {
+      "keyword_score": 12.5,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.549288,
+      "semantic_score_norm": 0.774644,
+      "combined_score": 0.887322
+    },
+    "candidate_pages": [
+      {
+        "page_number": 24,
+        "keyword_score": 12.5,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.549288,
+        "semantic_score_norm": 0.774644,
+        "combined_score": 0.887322
+      },
+      {
+        "page_number": 23,
+        "keyword_score": 9.8,
+        "keyword_score_norm": 0.784,
+        "semantic_score": 0.342468,
+        "semantic_score_norm": 0.671234,
+        "combined_score": 0.727617
+      },
+      {
+        "page_number": 194,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.24,
+        "semantic_score": 0.479671,
+        "semantic_score_norm": 0.739836,
+        "combined_score": 0.489918
+      },
+      {
+        "page_number": 157,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.2,
+        "semantic_score": 0.437172,
+        "semantic_score_norm": 0.718586,
+        "combined_score": 0.459293
+      },
+      {
+        "page_number": 156,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.2,
+        "semantic_score": 0.347233,
+        "semantic_score_norm": 0.673617,
+        "combined_score": 0.436808
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2018_n.pdf",
+    "selected_page": 27,
+    "extracted_pages": [
+      27,
+      29
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.271265,
+      "semantic_score_norm": 0.635633,
+      "combined_score": 0.817816
+    },
+    "candidate_pages": [
+      {
+        "page_number": 27,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.271265,
+        "semantic_score_norm": 0.635633,
+        "combined_score": 0.817816
+      },
+      {
+        "page_number": 219,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.429229,
+        "semantic_score_norm": 0.714614,
+        "combined_score": 0.431199
+      },
+      {
+        "page_number": 174,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.123153,
+        "semantic_score": 0.472583,
+        "semantic_score_norm": 0.736291,
+        "combined_score": 0.429722
+      },
+      {
+        "page_number": 26,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.290655,
+        "semantic_score_norm": 0.645328,
+        "combined_score": 0.408871
+      },
+      {
+        "page_number": 175,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.516308,
+        "semantic_score_norm": 0.758154,
+        "combined_score": 0.403708
+      }
+    ],
+    "warnings": [
+      "Missing expected cost items: 主营业务成本"
+    ],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 5,
+      "written_rows": 5,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20200430_28.pdf",
+    "selected_page": 28,
+    "extracted_pages": [
+      28,
+      29,
+      30
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.274204,
+      "semantic_score_norm": 0.637102,
+      "combined_score": 0.818551
+    },
+    "candidate_pages": [
+      {
+        "page_number": 28,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.274204,
+        "semantic_score_norm": 0.637102,
+        "combined_score": 0.818551
+      },
+      {
+        "page_number": 27,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.434008,
+        "semantic_score_norm": 0.717004,
+        "combined_score": 0.444709
+      },
+      {
+        "page_number": 171,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.123153,
+        "semantic_score": 0.451818,
+        "semantic_score_norm": 0.725909,
+        "combined_score": 0.424531
+      },
+      {
+        "page_number": 172,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.526585,
+        "semantic_score_norm": 0.763292,
+        "combined_score": 0.406277
+      },
+      {
+        "page_number": 117,
+        "keyword_score": 0.0,
+        "keyword_score_norm": 0.0,
+        "semantic_score": 0.603247,
+        "semantic_score_norm": 0.801623,
+        "combined_score": 0.400812
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf",
+    "selected_page": 35,
+    "extracted_pages": [
+      35,
+      37
+    ],
+    "top_page_score": {
+      "keyword_score": 16.8,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.216606,
+      "semantic_score_norm": 0.608303,
+      "combined_score": 0.804152
+    },
+    "candidate_pages": [
+      {
+        "page_number": 35,
+        "keyword_score": 16.8,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.216606,
+        "semantic_score_norm": 0.608303,
+        "combined_score": 0.804152
+      },
+      {
+        "page_number": 230,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.304372,
+        "semantic_score_norm": 0.652186,
+        "combined_score": 0.415379
+      },
+      {
+        "page_number": 164,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.178571,
+        "semantic_score": 0.299923,
+        "semantic_score_norm": 0.649961,
+        "combined_score": 0.414266
+      },
+      {
+        "page_number": 189,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.14881,
+        "semantic_score": 0.334143,
+        "semantic_score_norm": 0.667071,
+        "combined_score": 0.40794
+      },
+      {
+        "page_number": 34,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.208333,
+        "semantic_score": 0.206687,
+        "semantic_score_norm": 0.603343,
+        "combined_score": 0.405838
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20220331_2_AIxuoS2O.pdf",
+    "selected_page": 35,
+    "extracted_pages": [
+      35,
+      37
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.461387,
+      "semantic_score_norm": 0.730693,
+      "combined_score": 0.865347
+    },
+    "candidate_pages": [
+      {
+        "page_number": 35,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.461387,
+        "semantic_score_norm": 0.730693,
+        "combined_score": 0.865347
+      },
+      {
+        "page_number": 34,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.417682,
+        "semantic_score_norm": 0.708841,
+        "combined_score": 0.440627
+      },
+      {
+        "page_number": 220,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.396106,
+        "semantic_score_norm": 0.698053,
+        "combined_score": 0.373657
+      },
+      {
+        "page_number": 225,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.188709,
+        "semantic_score_norm": 0.594355,
+        "combined_score": 0.371069
+      },
+      {
+        "page_number": 39,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.374531,
+        "semantic_score_norm": 0.687266,
+        "combined_score": 0.368263
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf",
+    "selected_page": 29,
+    "extracted_pages": [
+      29
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.225857,
+      "semantic_score_norm": 0.612929,
+      "combined_score": 0.806464
+    },
+    "candidate_pages": [
+      {
+        "page_number": 29,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.225857,
+        "semantic_score_norm": 0.612929,
+        "combined_score": 0.806464
+      },
+      {
+        "page_number": 28,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.344053,
+        "semantic_score_norm": 0.672027,
+        "combined_score": 0.42222
+      },
+      {
+        "page_number": 194,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.475775,
+        "semantic_score_norm": 0.737888,
+        "combined_score": 0.393574
+      },
+      {
+        "page_number": 168,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.274386,
+        "semantic_score_norm": 0.637193,
+        "combined_score": 0.392488
+      },
+      {
+        "page_number": 193,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.123153,
+        "semantic_score": 0.298883,
+        "semantic_score_norm": 0.649441,
+        "combined_score": 0.386297
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20240328_3H3F.pdf",
+    "selected_page": 35,
+    "extracted_pages": [
+      35,
+      36
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.216945,
+      "semantic_score_norm": 0.608473,
+      "combined_score": 0.804236
+    },
+    "candidate_pages": [
+      {
+        "page_number": 35,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.216945,
+        "semantic_score_norm": 0.608473,
+        "combined_score": 0.804236
+      },
+      {
+        "page_number": 34,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.380944,
+        "semantic_score_norm": 0.690472,
+        "combined_score": 0.431443
+      },
+      {
+        "page_number": 172,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.556312,
+        "semantic_score_norm": 0.778156,
+        "combined_score": 0.413709
+      },
+      {
+        "page_number": 201,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.049261,
+        "semantic_score": 0.519975,
+        "semantic_score_norm": 0.759988,
+        "combined_score": 0.404624
+      },
+      {
+        "page_number": 207,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.277971,
+        "semantic_score_norm": 0.638986,
+        "combined_score": 0.393384
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20250328_MJE1.pdf",
+    "selected_page": 43,
+    "extracted_pages": [
+      43
+    ],
+    "top_page_score": {
+      "keyword_score": 20.3,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.211802,
+      "semantic_score_norm": 0.605901,
+      "combined_score": 0.802951
+    },
+    "candidate_pages": [
+      {
+        "page_number": 43,
+        "keyword_score": 20.3,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.211802,
+        "semantic_score_norm": 0.605901,
+        "combined_score": 0.802951
+      },
+      {
+        "page_number": 30,
+        "keyword_score": 2.5,
+        "keyword_score_norm": 0.123153,
+        "semantic_score": 0.510967,
+        "semantic_score_norm": 0.755483,
+        "combined_score": 0.439318
+      },
+      {
+        "page_number": 246,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.450186,
+        "semantic_score_norm": 0.725093,
+        "combined_score": 0.436438
+      },
+      {
+        "page_number": 206,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.147783,
+        "semantic_score": 0.303865,
+        "semantic_score_norm": 0.651932,
+        "combined_score": 0.399858
+      },
+      {
+        "page_number": 42,
+        "keyword_score": 3.5,
+        "keyword_score_norm": 0.172414,
+        "semantic_score": 0.224378,
+        "semantic_score_norm": 0.612189,
+        "combined_score": 0.392301
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  },
+  {
+    "source_file": "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20260327_DDD5.pdf",
+    "selected_page": 43,
+    "extracted_pages": [
+      43
+    ],
+    "top_page_score": {
+      "keyword_score": 20.0,
+      "keyword_score_norm": 1.0,
+      "semantic_score": 0.478316,
+      "semantic_score_norm": 0.739158,
+      "combined_score": 0.869579
+    },
+    "candidate_pages": [
+      {
+        "page_number": 43,
+        "keyword_score": 20.0,
+        "keyword_score_norm": 1.0,
+        "semantic_score": 0.478316,
+        "semantic_score_norm": 0.739158,
+        "combined_score": 0.869579
+      },
+      {
+        "page_number": 42,
+        "keyword_score": 3.8,
+        "keyword_score_norm": 0.19,
+        "semantic_score": 0.520683,
+        "semantic_score_norm": 0.760341,
+        "combined_score": 0.475171
+      },
+      {
+        "page_number": 244,
+        "keyword_score": 3.0,
+        "keyword_score_norm": 0.15,
+        "semantic_score": 0.471848,
+        "semantic_score_norm": 0.735924,
+        "combined_score": 0.442962
+      },
+      {
+        "page_number": 202,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.05,
+        "semantic_score": 0.550609,
+        "semantic_score_norm": 0.775305,
+        "combined_score": 0.412652
+      },
+      {
+        "page_number": 175,
+        "keyword_score": 1.0,
+        "keyword_score_norm": 0.05,
+        "semantic_score": 0.490853,
+        "semantic_score_norm": 0.745427,
+        "combined_score": 0.397713
+      }
+    ],
+    "warnings": [],
+    "retrieval": {
+      "embedding_status": "enabled:paraphrase-multilingual-MiniLM-L12-v2",
+      "keyword_weight": 0.5,
+      "semantic_weight": 0.5,
+      "selection_policy": "top1 combined score, then adjacent-page continuation extraction"
+    },
+    "output_filter": {
+      "min_confidence": 0.75,
+      "raw_rows": 6,
+      "written_rows": 6,
+      "dropped_low_confidence_rows": 0
+    }
+  }
+]

@@ -1,0 +1,6 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2012,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf,14,(1) 成本分析表,,原材料,36315.46,90.74,34591.77,90.87,4.98,万元,0.98
+2012,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf,14,(1) 成本分析表,,人工,1596.57,3.99,1620.02,4.26,-1.45,万元,0.98
+2012,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf,14,(1) 成本分析表,,折旧,302.88,0.76,268.35,0.7,12.87,万元,0.98
+2012,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf,14,(1) 成本分析表,,能源,337.24,0.84,289.39,0.76,16.53,万元,0.98
+2012,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2012_n.pdf,14,(1) 成本分析表,,其他,1468.85,3.67,1298.19,3.41,13.15,万元,0.98

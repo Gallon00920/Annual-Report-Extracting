@@ -1,0 +1,6 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2017,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf,24,成本构成 期占总 情况,家 用 电 器行业,原材料,76258.9627,85.97,54507.9544,85.92,39.9,万元,0.98
+2017,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf,24,成本构成 期占总 情况,家 用 电 器行业,人工,6143.1847,6.93,4068.3463,6.41,51.0,万元,0.98
+2017,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf,24,成本构成 期占总 情况,家 用 电 器行业,折旧,1637.5871,1.85,1370.4897,2.16,19.49,万元,0.98
+2017,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf,24,成本构成 期占总 情况,家 用 电 器行业,能源,394.3693,0.44,494.8927,0.78,-20.31,万元,0.98
+2017,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2017_n.pdf,24,成本构成 期占总 情况,家 用 电 器行业,其他,4266.9469,4.81,2998.5254,4.73,42.3,万元,0.98
