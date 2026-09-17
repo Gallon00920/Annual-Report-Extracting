@@ -38,8 +38,8 @@ DEFAULT_SEMANTIC_QUERY = (
     "成本分析表 成本结构 成本构成 分行业情况 主营业务成本 原材料 人工 折旧 能源 其他 "
     "cost analysis table cost structure cost composition operating cost breakdown"
 )
-DEFAULT_INPUT_PATH = "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports"
-DEFAULT_OUTPUT_DIR = "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/outputs"
+DEFAULT_INPUT_PATH = "YOUR_PATH_HERE/table_extraction/reports"
+DEFAULT_OUTPUT_DIR = "YOUR_PATH_HERE/table_extraction/outputs"
 DEFAULT_SEMANTIC_MAX_CHARS = 3000
 DEFAULT_MIN_OUTPUT_CONFIDENCE = 0.75
 
