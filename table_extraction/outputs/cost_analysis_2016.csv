@@ -1,6 +1,6 @@
 ﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
-2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,(3). 成本分析表,家用电器 行业,原材料,54507.9544,85.92,40400.52,88.84,34.92,万元,0.834
-2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,(3). 成本分析表,家用电器 行业,人工,4068.3463,6.41,1485.87,3.27,173.8,万元,0.834
-2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,(3). 成本分析表,家用电器 行业,折旧,1370.4897,2.16,543.0,1.19,152.39,万元,0.834
-2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,(3). 成本分析表,家用电器 行业,能源,494.8927,0.78,396.94,0.87,24.68,万元,0.834
-2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,(3). 成本分析表,家用电器 行业,其他,2998.5254,4.73,2649.99,5.83,13.15,万元,0.834
+2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,主营业务分产品情况,家用电器 行业,原材料,54507.9544,85.92,40400.52,88.84,34.92,万元,0.834
+2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,主营业务分产品情况,家用电器 行业,人工,4068.3463,6.41,1485.87,3.27,173.8,万元,0.834
+2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,主营业务分产品情况,家用电器 行业,折旧,1370.4897,2.16,543.0,1.19,152.39,万元,0.834
+2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,主营业务分产品情况,家用电器 行业,能源,494.8927,0.78,396.94,0.87,24.68,万元,0.834
+2016,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2016_n.pdf,28,主营业务分产品情况,家用电器 行业,其他,2998.5254,4.73,2649.99,5.83,13.15,万元,0.834

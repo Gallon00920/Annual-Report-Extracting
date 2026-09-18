@@ -7,7 +7,7 @@ import json
 import math
 import re
 import tempfile
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Iterable
 
@@ -21,6 +21,11 @@ TARGET_HEADING_PATTERNS = [
     "成本构成",
     "成本结构",
     "分行业情况",
+    "主营业务分行业、分产品情况表",
+    "主营业务分行业分产品情况表",
+    "主营业务分行业、产品情况",
+    "主营业务分行业产品情况",
+    "主营业务分产品情况",
 ]
 
 TABLE_HEADER_PATTERNS = [
@@ -30,12 +35,41 @@ TABLE_HEADER_PATTERNS = [
     "上年同期金额",
     "上年同期占总成本比例",
     "本期金额较上年同期变动比例",
+    "分行业或分产品",
+    "分行业或产品",
+    "主营业务成本",
+    "主营业务成本比上年增减",
+    "营业成本",
+    "营业成本比上年增减",
+    "营业收入",
+    "毛利率",
 ]
 
-COST_ITEM_KEYWORDS = ["主营业务成本", "原材料", "人工", "折旧", "能源", "其他"]
+COST_ITEM_KEYWORDS = ["主营业务成本", "营业成本", "原材料", "人工", "折旧", "能源", "其他"]
+TOTAL_COST_ITEM_LABELS = {"主营业务成本", "营业成本"}
+ALTERNATE_COST_ITEM = "主营业务成本"
+ALTERNATE_COST_ITEM_LABELS = {"主营业务成本", "营业成本"}
+ALTERNATE_EXPECTED_INDUSTRIES = ["空调器", "电冰箱", "电冰柜", "小家电", "其他产品", "合计"]
+ALTERNATE_HEADER_LABELS = {
+    "分行业或分产品",
+    "分行业或产品",
+    "分产品",
+    "分行业",
+    "主营业务成本",
+    "营业成本",
+    "营业收入",
+}
+ALTERNATE_INDUSTRY_ALIASES = {
+    "空调": "空调器",
+    "电冷柜": "电冰柜",
+    "其他": "其他产品",
+    "其它": "其他产品",
+    "其它产品": "其他产品",
+}
 NUMBER_RE = re.compile(r"[-+]?\d[\d,]*(?:\.\d+)?")
 DEFAULT_SEMANTIC_QUERY = (
-    "成本分析表 成本结构 成本构成 分行业情况 主营业务成本 原材料 人工 折旧 能源 其他 "
+    "成本分析表 成本结构 成本构成 分行业情况 主营业务分行业 产品情况 "
+    "主营业务成本 营业成本 原材料 人工 折旧 能源 其他 "
     "cost analysis table cost structure cost composition operating cost breakdown"
 )
 DEFAULT_INPUT_PATH = "YOUR_PATH_HERE/table_extraction/reports"
@@ -133,9 +167,7 @@ def pdf_header_warning(pdf_path: Path) -> str | None:
 @contextlib.contextmanager
 def open_pdf_with_repair(pdf_path: Path):
     try:
-        with pdfplumber.open(pdf_path) as pdf:
-            yield pdf, None
-            return
+        pdf = pdfplumber.open(pdf_path)
     except Exception as original_exc:
         try:
             from pypdf import PdfReader, PdfWriter
@@ -156,6 +188,9 @@ def open_pdf_with_repair(pdf_path: Path):
                 yield pdf, f"pdfplumber opened a pypdf-repaired copy after initial failure: {type(original_exc).__name__}: {original_exc}"
         finally:
             repaired_path.unlink(missing_ok=True)
+    else:
+        with pdf:
+            yield pdf, None
 
 
 def page_score(text: str) -> float:
@@ -163,7 +198,7 @@ def page_score(text: str) -> float:
     score = 0.0
     for pattern in TARGET_HEADING_PATTERNS:
         if pattern in compact:
-            score += 6.0 if pattern == "成本分析表" else 2.5
+            score += 14.0 if pattern == "成本分析表" else 2.5
     for pattern in TABLE_HEADER_PATTERNS:
         if pattern in compact:
             score += 2.0
@@ -173,6 +208,16 @@ def page_score(text: str) -> float:
         score += 0.3
     if "主营业务成本" in compact:
         score += 1.5
+    if "营业成本" in compact:
+        score += 1.5
+    if "主营业务分行业" in compact and any(pattern in compact for pattern in ["分产品情况表", "分产品情况", "产品情况"]):
+        score += 6.0
+    if "主营业务分产品情况" in compact:
+        score += 6.0
+    if any(pattern in compact for pattern in ["分行业或分产品", "分行业或产品"]) and any(
+        pattern in compact for pattern in ["主营业务成本比上年增减", "营业成本比上年增减"]
+    ):
+        score += 4.0
     return score
 
 
@@ -303,10 +348,20 @@ def amount_to_million_rmb(amount: float | None, raw_unit: str) -> float | None:
     return amount
 
 
+def plausible_ratio(value: float | None) -> bool:
+    if value is None:
+        return False
+    return -100.0 <= value <= 150.0
+
+
 def extract_section_heading(page_text: str) -> str:
     for line in page_text.splitlines():
         compact = normalize_text(line)
         if "成本分析表" in compact:
+            return visible_text(line)
+        if "主营业务分行业" in compact and any(pattern in compact for pattern in ["分产品情况表", "分产品情况", "产品情况"]):
+            return visible_text(line)
+        if "主营业务分产品情况" in compact:
             return visible_text(line)
     for line in page_text.splitlines():
         compact = normalize_text(line)
@@ -326,7 +381,230 @@ def table_relevance(table: list[list[object]]) -> float:
             score += 1.0
     if "分行业情况" in compact:
         score += 1.0
+    if any(pattern in compact for pattern in ["分行业或分产品", "分行业或产品"]) and any(
+        pattern in compact for pattern in ["主营业务成本比上年增减", "营业成本比上年增减"]
+    ):
+        score += 8.0
     return score
+
+
+def alternate_table_columns(table: list[list[object]]) -> tuple[int, int, int, str] | None:
+    if not table:
+        return None
+    header = [normalize_text(cell) for cell in table[0]]
+    industry_idx = cost_idx = yoy_idx = None
+    cost_item = ""
+    for index, text in enumerate(header):
+        if "分行业或分产品" in text or "分行业或产品" in text:
+            industry_idx = index
+        elif "主营业务成本比上年增减" in text or "营业成本比上年增减" in text:
+            yoy_idx = index
+        elif "主营业务成本" in text and "比上年增减" not in text:
+            cost_idx = index
+            cost_item = "主营业务成本"
+        elif "营业成本" in text and "比上年增减" not in text:
+            cost_idx = index
+            cost_item = "营业成本"
+    if industry_idx is None or cost_idx is None or yoy_idx is None:
+        return None
+    return industry_idx, cost_idx, yoy_idx, cost_item or ALTERNATE_COST_ITEM
+
+
+def is_alternate_business_table(table: list[list[object]]) -> bool:
+    return alternate_table_columns(table) is not None
+
+
+def normalize_alternate_industry(value: str) -> str:
+    text = normalize_text(value)
+    return ALTERNATE_INDUSTRY_ALIASES.get(text, text)
+
+
+def is_alternate_result_row(row: ExtractionResult) -> bool:
+    if row.cost_item not in ALTERNATE_COST_ITEM_LABELS:
+        return False
+    if "主营业务分" in normalize_text(row.section_heading):
+        return True
+    return row.report_year.isdigit() and int(row.report_year) < 2012
+
+
+def is_valid_alternate_industry(value: str) -> bool:
+    if not value or value in ALTERNATE_HEADER_LABELS:
+        return False
+    return not any(token in value for token in ["比上年", "毛利率", "利润率", "营业收入", "营业成本"])
+
+
+def has_number(value: str) -> bool:
+    return NUMBER_RE.search(value) is not None
+
+
+def is_alternate_label_fragment(value: str) -> bool:
+    text = normalize_text(value)
+    if not text or has_number(text):
+        return False
+    if "%" in text or "％" in text:
+        return False
+    if text in {"个百分点", "分产品", "分行业"}:
+        return False
+    if any(token in text for token in ["增加", "减少", "同比", "单位", "币种", "主营业务", "地区", "情况", "年增减"]):
+        return False
+    return is_valid_alternate_industry(text)
+
+
+def alternate_text_row_label(lines: list[str], index: int, first_number_start: int) -> str:
+    base_label = normalize_alternate_industry(lines[index][:first_number_start])
+    if not any(token in base_label for token in ["业务", "其他"]):
+        return base_label
+
+    fragments_before: list[str] = []
+    cursor = index - 1
+    while cursor >= 0:
+        previous = visible_text(lines[cursor])
+        if not previous or any(token in normalize_text(previous) for token in ["增加", "减少", "个百分点"]):
+            cursor -= 1
+            continue
+        if not is_alternate_label_fragment(previous):
+            break
+        fragments_before.insert(0, normalize_text(previous))
+        cursor -= 1
+
+    fragments_after: list[str] = []
+    cursor = index + 1
+    while cursor < len(lines):
+        following = visible_text(lines[cursor])
+        if not following or any(token in normalize_text(following) for token in ["增加", "减少", "个百分点"]):
+            cursor += 1
+            continue
+        if not is_alternate_label_fragment(following):
+            break
+        fragments_after.append(normalize_text(following))
+        cursor += 1
+
+    return normalize_alternate_industry("".join([*fragments_before, base_label, *fragments_after]))
+
+
+def build_alternate_results(
+    parsed_by_industry: dict[str, dict[str, object]],
+    *,
+    cost_item: str,
+    report_year: str,
+    company: str,
+    source_file: str,
+    source_page: int,
+    section_heading: str,
+    raw_unit: str,
+    table_confidence: float,
+) -> list[ExtractionResult]:
+    parsed_rows = list(parsed_by_industry.values())
+    if not parsed_rows:
+        return []
+    if "合计" not in parsed_by_industry:
+        component_rows = [row for row in parsed_rows if row["industry"] != "合计"]
+        total_cost = sum(float(row["current_cost"]) for row in component_rows)
+        total_prior_cost = sum(float(row["prior_cost"]) for row in component_rows)
+        if total_cost == 0:
+            return []
+        synthetic_yoy_change = (total_cost / total_prior_cost - 1.0) * 100.0 if total_prior_cost else 0.0
+        parsed_rows.append(
+            {
+                "industry": "合计",
+                "current_cost": total_cost,
+                "yoy_change": synthetic_yoy_change,
+                "prior_cost": total_prior_cost,
+            }
+        )
+    else:
+        total_cost = float(parsed_by_industry["合计"]["current_cost"])
+        total_prior_cost = float(parsed_by_industry["合计"]["prior_cost"])
+
+    total_prior_cost = next(
+        (float(row["prior_cost"]) for row in parsed_rows if row["industry"] == "合计"),
+        total_prior_cost,
+    )
+    if total_cost == 0 or total_prior_cost == 0:
+        return []
+
+    confidence = min(0.99, table_confidence + 0.08)
+    results: list[ExtractionResult] = []
+    for row in parsed_rows:
+        industry = str(row["industry"])
+        current_cost = float(row["current_cost"])
+        prior_cost = float(row["prior_cost"])
+        current_ratio = 100.0 if industry == "合计" else current_cost / total_cost * 100.0
+        prior_ratio = 100.0 if industry == "合计" else prior_cost / total_prior_cost * 100.0
+        results.append(
+            ExtractionResult(
+                report_year=report_year,
+                company=company,
+                source_file=source_file,
+                source_page=source_page,
+                section_heading=section_heading,
+                industry=industry,
+                cost_item=cost_item,
+                current_amount_million_rmb=amount_to_million_rmb(current_cost, raw_unit),
+                current_ratio_pct=round(current_ratio, 6),
+                prior_amount_million_rmb=amount_to_million_rmb(prior_cost, raw_unit),
+                prior_ratio_pct=round(prior_ratio, 6),
+                yoy_change_pct=float(row["yoy_change"]),
+                raw_unit=raw_unit,
+                confidence=round(confidence, 3),
+            )
+        )
+    return results
+
+
+def extract_rows_from_alternate_business_text(
+    page_text: str,
+    *,
+    report_year: str,
+    company: str,
+    source_file: str,
+    source_page: int,
+    section_heading: str,
+    raw_unit: str,
+    table_confidence: float,
+) -> list[ExtractionResult]:
+    if report_year and report_year.isdigit() and int(report_year) >= 2012:
+        return []
+    compact = normalize_text(page_text)
+    if not any(pattern in compact for pattern in ["主营业务分行业、产品情况", "主营业务分产品情况"]):
+        return []
+    if "营业成本" not in compact:
+        return []
+
+    parsed_by_industry: dict[str, dict[str, object]] = {}
+    lines = page_text.splitlines()
+    for index, line in enumerate(lines):
+        numbers = [float(match.group(0).replace(",", "")) for match in NUMBER_RE.finditer(line)]
+        if len(numbers) < 5:
+            continue
+        first_number = NUMBER_RE.search(line)
+        if first_number is None:
+            continue
+        label = alternate_text_row_label(lines, index, first_number.start())
+        if not is_valid_alternate_industry(label):
+            continue
+        current_cost = numbers[1]
+        yoy_change = numbers[4]
+        if label in parsed_by_industry:
+            continue
+        parsed_by_industry[label] = {
+            "industry": label,
+            "current_cost": current_cost,
+            "yoy_change": yoy_change,
+            "prior_cost": current_cost / (1.0 + yoy_change / 100.0),
+        }
+
+    return build_alternate_results(
+        parsed_by_industry,
+        cost_item="营业成本",
+        report_year=report_year,
+        company=company,
+        source_file=source_file,
+        source_page=source_page,
+        section_heading=section_heading,
+        raw_unit=raw_unit,
+        table_confidence=table_confidence,
+    )
 
 
 def clean_industry(value: str) -> str:
@@ -391,6 +669,8 @@ def extract_rows_from_table(
             continue
 
         current_amount, current_ratio, prior_amount, prior_ratio, yoy_change = numbers[:5]
+        if not plausible_ratio(current_ratio) or not plausible_ratio(prior_ratio):
+            continue
         confidence = min(0.99, table_confidence + 0.08)
         results.append(
             ExtractionResult(
@@ -412,6 +692,162 @@ def extract_rows_from_table(
         )
 
     return results
+
+
+def extract_rows_from_alternate_business_table(
+    table: list[list[object]],
+    *,
+    report_year: str,
+    company: str,
+    source_file: str,
+    source_page: int,
+    section_heading: str,
+    raw_unit: str,
+    table_confidence: float,
+) -> list[ExtractionResult]:
+    columns = alternate_table_columns(table)
+    if columns is None:
+        return []
+    industry_idx, cost_idx, yoy_idx, cost_item = columns
+
+    parsed_by_industry: dict[str, dict[str, object]] = {}
+    for row in table[1:]:
+        cells = [visible_text(cell) for cell in row]
+        if max(industry_idx, cost_idx, yoy_idx) >= len(cells):
+            continue
+        industry = normalize_alternate_industry(cells[industry_idx])
+        if not is_valid_alternate_industry(industry):
+            continue
+        current_cost = parse_number(cells[cost_idx])
+        yoy_change = parse_number(cells[yoy_idx])
+        if current_cost is None or yoy_change is None:
+            continue
+        if industry in parsed_by_industry:
+            continue
+        parsed_by_industry[industry] = {
+            "industry": industry,
+            "current_cost": current_cost,
+            "yoy_change": yoy_change,
+            "prior_cost": current_cost / (1.0 + yoy_change / 100.0),
+        }
+
+    return build_alternate_results(
+        parsed_by_industry,
+        cost_item=cost_item,
+        report_year=report_year,
+        company=company,
+        source_file=source_file,
+        source_page=source_page,
+        section_heading=section_heading,
+        raw_unit=raw_unit,
+        table_confidence=table_confidence,
+    )
+
+
+def extract_rows_from_alternate_continuation_table(
+    table: list[list[object]],
+    *,
+    report_year: str,
+    company: str,
+    source_file: str,
+    source_page: int,
+    section_heading: str,
+    raw_unit: str,
+    table_confidence: float,
+) -> list[ExtractionResult]:
+    if report_year and report_year.isdigit() and int(report_year) >= 2012:
+        return []
+
+    parsed_by_industry: dict[str, dict[str, object]] = {}
+    for row in table:
+        cells = [visible_text(cell) for cell in row]
+        if len(cells) < 6:
+            continue
+        industry = normalize_alternate_industry(cells[0])
+        if not is_valid_alternate_industry(industry):
+            continue
+        current_cost = parse_number(cells[2])
+        yoy_change = parse_number(cells[5])
+        if current_cost is None or yoy_change is None:
+            continue
+        if industry in parsed_by_industry:
+            continue
+        parsed_by_industry[industry] = {
+            "industry": industry,
+            "current_cost": current_cost,
+            "yoy_change": yoy_change,
+            "prior_cost": current_cost / (1.0 + yoy_change / 100.0),
+        }
+
+    return build_alternate_results(
+        parsed_by_industry,
+        cost_item="营业成本",
+        report_year=report_year,
+        company=company,
+        source_file=source_file,
+        source_page=source_page,
+        section_heading=section_heading,
+        raw_unit=raw_unit,
+        table_confidence=table_confidence,
+    )
+
+
+def merge_alternate_rows_across_pages(rows: list[ExtractionResult]) -> list[ExtractionResult]:
+    alternate_rows = [
+        row
+        for row in rows
+        if is_alternate_result_row(row)
+    ]
+    if not alternate_rows:
+        return rows
+
+    other_rows = [row for row in rows if row not in alternate_rows]
+    by_industry: dict[str, ExtractionResult] = {}
+    for row in alternate_rows:
+        if row.industry == "合计":
+            previous = by_industry.get(row.industry)
+            if previous is None or (row.current_amount_million_rmb or 0) > (previous.current_amount_million_rmb or 0):
+                by_industry[row.industry] = row
+            continue
+        by_industry.setdefault(row.industry, row)
+
+    ordered = [row for row in by_industry.values() if row.industry != "合计"]
+    if "合计" in by_industry:
+        ordered.append(by_industry["合计"])
+    total = by_industry.get("合计")
+    component_rows = [row for row in ordered if row.industry != "合计"]
+    if total is None:
+        total_current = sum(row.current_amount_million_rmb or 0 for row in component_rows)
+        total_prior = sum(row.prior_amount_million_rmb or 0 for row in component_rows)
+        if total_current and total_prior and component_rows:
+            first = component_rows[0]
+            total = replace(
+                first,
+                industry="合计",
+                current_amount_million_rmb=round(total_current, 6),
+                current_ratio_pct=100.0,
+                prior_amount_million_rmb=round(total_prior, 6),
+                prior_ratio_pct=100.0,
+                yoy_change_pct=(total_current / total_prior - 1.0) * 100.0,
+            )
+            ordered.append(total)
+
+    if total is None or not total.current_amount_million_rmb or not total.prior_amount_million_rmb:
+        return other_rows + ordered
+
+    recalculated: list[ExtractionResult] = []
+    for row in ordered:
+        if row.industry == "合计":
+            recalculated.append(replace(row, current_ratio_pct=100.0, prior_ratio_pct=100.0))
+            continue
+        current_ratio = None
+        prior_ratio = None
+        if row.current_amount_million_rmb is not None:
+            current_ratio = round(row.current_amount_million_rmb / total.current_amount_million_rmb * 100.0, 6)
+        if row.prior_amount_million_rmb is not None:
+            prior_ratio = round(row.prior_amount_million_rmb / total.prior_amount_million_rmb * 100.0, 6)
+        recalculated.append(replace(row, current_ratio_pct=current_ratio, prior_ratio_pct=prior_ratio))
+    return other_rows + recalculated
 
 
 def dedupe_rows(rows: list[ExtractionResult]) -> list[ExtractionResult]:
@@ -490,6 +926,34 @@ def extract_cost_rows_from_pages(
                 continue
             if page_number != selected.page_number and relevance < 1.0:
                 continue
+            if is_alternate_business_table(table):
+                page_rows.extend(
+                    extract_rows_from_alternate_business_table(
+                        table,
+                        report_year=report_year,
+                        company=company,
+                        source_file=source_file,
+                        source_page=page_number,
+                        section_heading=page_heading,
+                        raw_unit=page_unit,
+                        table_confidence=min(0.9, 0.5 + page_combined_score / 4 + relevance / 30),
+                    )
+                )
+                continue
+            if page_number != selected.page_number:
+                continuation_rows = extract_rows_from_alternate_continuation_table(
+                    table,
+                    report_year=report_year,
+                    company=company,
+                    source_file=source_file,
+                    source_page=page_number,
+                    section_heading=page_heading,
+                    raw_unit=page_unit,
+                    table_confidence=min(0.9, 0.5 + page_combined_score / 4 + relevance / 30),
+                )
+                if continuation_rows:
+                    page_rows.extend(continuation_rows)
+                    continue
             page_rows.extend(
                 extract_rows_from_table(
                     table,
@@ -504,6 +968,20 @@ def extract_cost_rows_from_pages(
                 )
             )
 
+        if not any(is_alternate_result_row(row) for row in page_rows):
+            page_rows.extend(
+                extract_rows_from_alternate_business_text(
+                    page_text,
+                    report_year=report_year,
+                    company=company,
+                    source_file=source_file,
+                    source_page=page_number,
+                    section_heading=page_heading,
+                    raw_unit=page_unit,
+                    table_confidence=min(0.9, 0.5 + page_combined_score / 4),
+                )
+            )
+
         if page_rows:
             selected_pages.append(page_number)
             for row in page_rows:
@@ -513,6 +991,7 @@ def extract_cost_rows_from_pages(
         elif page_number > selected.page_number and has_next_major_section(page_text, section_heading):
             break
 
+    rows = merge_alternate_rows_across_pages(rows)
     rows = dedupe_rows(rows)
     rows.sort(key=lambda row: (row.source_page, COST_ITEM_KEYWORDS.index(row.cost_item) if row.cost_item in COST_ITEM_KEYWORDS else 999))
     rows = collapse_duplicate_cost_items(rows)
@@ -534,19 +1013,24 @@ def validate_results(rows: list[ExtractionResult]) -> list[str]:
     if not rows:
         return ["No cost-analysis rows were extracted."]
 
+    if rows and all(row.cost_item in ALTERNATE_COST_ITEM_LABELS for row in rows):
+        if not any(row.industry == "合计" for row in rows):
+            warnings.append("Missing 合计 row in alternate business table.")
+        return warnings
+
     items = {row.cost_item for row in rows}
-    missing = [item for item in ["主营业务成本", "原材料", "人工", "折旧", "能源", "其他"] if item not in items]
+    missing = [item for item in ["原材料", "人工", "折旧", "能源", "其他"] if item not in items]
     if missing:
         warnings.append(f"Missing expected cost items: {', '.join(missing)}")
 
-    total = next((row for row in rows if row.cost_item == "主营业务成本"), None)
-    components = [row for row in rows if row.cost_item != "主营业务成本"]
+    total = next((row for row in rows if row.cost_item in TOTAL_COST_ITEM_LABELS), None)
+    components = [row for row in rows if row.cost_item not in TOTAL_COST_ITEM_LABELS]
     if total and components and total.current_amount_million_rmb is not None:
         component_sum = sum(row.current_amount_million_rmb or 0 for row in components)
         tolerance = max(1.0, total.current_amount_million_rmb * 0.02)
         if abs(component_sum - total.current_amount_million_rmb) > tolerance:
             warnings.append(
-                "Current component sum differs from 主营业务成本 by more than 2% "
+                f"Current component sum differs from {total.cost_item} by more than 2% "
                 f"({component_sum:.2f} vs {total.current_amount_million_rmb:.2f} million RMB)."
             )
 

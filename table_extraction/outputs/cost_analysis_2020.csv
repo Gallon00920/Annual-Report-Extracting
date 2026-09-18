@@ -1,7 +1,7 @@
 ﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,主营业务成本,122515.76,100.0,105037.13,100.0,16.64,万元,0.98
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,原材料,101904.14,83.2,88172.49,83.94,15.57,万元,0.98
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,人工,7763.34,6.3,5880.73,5.6,32.01,万元,0.98
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,折旧,2401.06,2.0,1748.04,1.66,37.36,万元,0.98
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,能源,636.33,0.5,607.8,0.58,4.69,万元,0.98
-2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20210331_9.pdf,35,(3). 成本分析表,,其他,9810.89,8.0,8628.07,8.21,13.71,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,主营业务成本,122515.76,100.0,105037.13,100.0,16.64,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,原材料,101904.14,83.2,88172.49,83.94,15.57,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,人工,7763.34,6.3,5880.73,5.6,32.01,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,折旧,2401.06,2.0,1748.04,1.66,37.36,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,能源,636.33,0.5,607.8,0.58,4.69,万元,0.98
+2020,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2020_n.pdf,35,(3). 成本分析表,,其他,9810.89,8.0,8628.07,8.21,13.71,万元,0.98

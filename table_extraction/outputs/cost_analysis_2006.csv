@@ -1,0 +1,7 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,空调器,主营业务成本,6159.27,36.513399,6822.408064,46.834865,-9.72,万元,0.98
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,电冰箱,主营业务成本,6185.17,36.666939,4855.302614,33.330965,27.39,万元,0.98
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,电冰柜,主营业务成本,1437.94,8.524399,1126.912226,7.736093,27.6,万元,0.98
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,小家电,主营业务成本,569.97,3.378897,597.640768,4.102719,-4.63,万元,0.98
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,其他产品,主营业务成本,2516.17,14.916365,1165.001389,7.997569,115.98,万元,0.98
+2006,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2006_n.pdf,16,（2）主营业务分行业、分产品情况表,合计,主营业务成本,16868.52,100.0,14566.943005,100.0,15.8,万元,0.98

@@ -83,6 +83,26 @@ million RMB = 万元 / 100
 10. Drops rows with `confidence < 0.75` from CSV output by default.
 11. Writes per-report CSV files, a combined CSV, and `diagnostics.json`.
 
+## Pre-2012 Alternate Table
+
+Older reports may not contain the modern `成本分析表`. For reports such as 2006-2011, the extractor also supports old business-segment tables such as `主营业务分行业、分产品情况表`, `主营业务分行业、产品情况`, and `主营业务分产品情况`.
+
+For this older layout:
+
+- `industry` is taken from `分行业或分产品` or `分行业或产品`.
+- Once the old-format table is detected, every valid item row in the table is extracted.
+- `空调` is normalized to `空调器`; `电冷柜` is normalized to `电冰柜`; `其他`, `其它`, and `其它产品` are normalized to `其他产品`.
+- If the table does not provide `合计`, the extractor creates it by summing the kept `分行业或分产品` rows.
+- `cost_item` is detected from the table header as `主营业务成本` or `营业成本`.
+- `current_amount_million_rmb` uses only `主营业务成本` / `营业成本`; `主营业务收入` / `营业收入` is ignored.
+- `current_ratio_pct` is each row's cost amount divided by the `合计` row's cost amount.
+- `prior_amount_million_rmb` is calculated as `cost amount / (1 + cost yoy change / 100)`.
+- `prior_ratio_pct` is each calculated prior amount divided by the `合计` calculated prior amount.
+- `合计` has `current_ratio_pct = 100` and `prior_ratio_pct = 100`.
+- `yoy_change_pct` is copied from `主营业务成本比上年增减（％）` / `营业成本比上年增减(%)`.
+- Revenue, profit margin, revenue growth, and profit-margin growth columns are ignored.
+- When `pdfplumber` separates product names from the numeric grid in pre-2012 reports, the extractor falls back to parsing the page text for the same old-layout fields.
+
 ## Diagnostics
 
 `diagnostics.json` records:

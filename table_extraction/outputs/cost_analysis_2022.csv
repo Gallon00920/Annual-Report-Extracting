@@ -1,7 +1,7 @@
 ﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,主营业务成本,153723.81,100.0,144689.83,100.0,6.24,万元,0.98
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,原材料,131358.24,85.5,124004.31,85.7,5.93,万元,0.98
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,人工,9504.81,6.2,8938.32,6.2,6.34,万元,0.98
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,折旧,2540.04,1.7,2383.31,1.6,6.58,万元,0.98
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,能源,816.21,0.5,723.63,0.5,12.79,万元,0.98
-2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_20230331_R2G0.pdf,29,(4). 成本分析表,家用电器 行业,其他,9504.5,6.2,8640.26,6.0,10.0,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,主营业务成本,153723.81,100.0,144689.83,100.0,6.24,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,原材料,131358.24,85.5,124004.31,85.7,5.93,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,人工,9504.81,6.2,8938.32,6.2,6.34,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,折旧,2540.04,1.7,2383.31,1.6,6.58,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,能源,816.21,0.5,723.63,0.5,12.79,万元,0.98
+2022,海尔智家股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2022_n.pdf,29,(4). 成本分析表,家用电器 行业,其他,9504.5,6.2,8640.26,6.0,10.0,万元,0.98

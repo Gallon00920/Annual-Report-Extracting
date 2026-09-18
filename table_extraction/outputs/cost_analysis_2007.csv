@@ -1,0 +1,7 @@
+﻿report_year,company,source_file,source_page,section_heading,industry,cost_item,current_amount_million_rmb,current_ratio_pct,prior_amount_million_rmb,prior_ratio_pct,yoy_change_pct,raw_unit,confidence
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,20,（2）主营业务分行业、分产品情况表。,空调器,营业成本,8042.415346,34.691275,7005.58828,36.969778,14.8,元,0.98
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,20,（2）主营业务分行业、分产品情况表。,电冰箱,营业成本,9355.575382,40.355642,7381.706945,38.954626,26.74,元,0.98
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,20,（2）主营业务分行业、分产品情况表。,电冰柜,营业成本,1683.383279,7.26134,1437.928828,7.588215,17.07,元,0.98
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,20,（2）主营业务分行业、分产品情况表。,小家电,营业成本,692.498358,2.987119,569.957496,3.007771,21.5,元,0.98
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,21,（2）主营业务分行业、分产品情况表。,其他产品,营业成本,3408.946379,14.704624,2553.900494,13.477403,33.48,元,0.759
+2007,青岛海尔股份有限公司,/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports/600690_2007_n.pdf,21,（2）主营业务分行业、分产品情况表。,合计,营业成本,23182.818744,100.0,18949.500363,100.0,22.34,元,0.759

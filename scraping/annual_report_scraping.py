@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 
-SAVE_DIR = "YOUR_PATH_HERE"  # Replace with your desired download directory
+SAVE_DIR = "/Users/jialunxu/Documents/personal/projects/annual_report/table_extraction/reports"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # Configure Chrome to automatically download files natively (bypasses 7KB / SSL errors)
@@ -41,8 +41,8 @@ link.click()
 link = driver.find_element(By.XPATH, '/html/body/div[9]/div/div[1]/div/div[4]/div[2]/div/div/div/ul/li[2]/a')
 link.click()
 
-# Loop over years 2008 to 2026
-for year in range(2008, 2027):
+# Loop over years 2007 to 2026
+for year in range(2007, 2027):
     print(f"\n=== Processing Year: {year} ===")
     
     element = driver.find_element(By.XPATH, "/html/body/div[9]/div/div[1]/div/div[5]/div[2]/input")
